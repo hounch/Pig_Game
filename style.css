@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: linear-gradient(to bottom right, #ba2f3a, #753681);
+}
+
+/* .main {
+  background-color: white;
+  opacity: 0.5;
+} */
+
+h2,
+p {
+  text-align: center;
+}
+
+.name {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 9px;
+  color: #333333;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.score {
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #c7365f;
+}
+
+.current-name {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #d6c8ce;
+}
+
+.current-score1 {
+  font-size: 35px;
+  margin: 0;
+}
+
+.current-score2 {
+  font-size: 35px;
+  margin: 0;
+}
+
+.main {
+  padding: 0;
+  margin: 65px auto;
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  box-shadow: 10px 20px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.half {
+  flex: 0 1 50%;
+  /* border: 1px black solid; */
+  padding: 40px;
+}
+
+.current {
+  color: white;
+  border-radius: 0.55rem;
+  height: 120px;
+  width: 208px;
+  margin: 128px auto;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.player1 {
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 2% 0 0 2%;
+}
+
+.player2 {
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 0 2% 2% 0;
+}
+
+.buttons {
+  margin: 0 400px;
+  width: 200px;
+  height: 650px;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.cube {
+  width: 50%;
+  margin: 65px auto 35px;
+  box-shadow: 0 0 100px 5px rgba(0, 0, 0, 0.2);
+}
+
+.again {
+  width: 185px;
+  margin: 45px auto 13px;
+}
+
+.roll {
+  width: 185px;
+  margin: 90px auto 13px;
+}
+
+.hold {
+  width: 145px;
+  margin: 8px auto 20%;
+}
+
+.btn {
+  cursor: pointer;
+  color: rgb(89, 89, 89);
+  background-color: rgba(255, 255, 255, 0.7);
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 2rem;
+  padding-bottom: 10px;
+  font-size: 18px;
+  height: 48px;
+  box-shadow: 0 0 100px 5px rgba(0, 0, 0, 0.2);
+}
+
+button::first-letter {
+  font-size: 1.7rem;
+}
+
+.current1 {
+  background-color: #c7365f;
+}
+.current2 {
+  background-color: #ba3c61;
+}
+
+.active_player {
+  background-color: rgba(255, 255, 255, 0.6);
+}
